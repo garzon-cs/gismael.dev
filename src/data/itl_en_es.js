@@ -31,18 +31,55 @@ const portfolio_en = {
 }
 
 const portfolio_es = {
-    role: 'Ingeniero Backend / Backend Engineer'
+    role: 'Ingeniero Backend'
 }
 
+// card component translations
+
+const project_card_en = {
+    site: 'Site', 
+    techstack: 'Tech Stack', 
+    status: 'Status',
+
+    status_dev: 'In active development',
+    status_man: 'In Mantainance',
+    status_arc: 'Not active',
+}
+
+const project_card_es = {
+    site: 'Sitio', 
+    techstack: 'Tecnologías', 
+    status: 'Estado',
+
+    status_dev: 'En desarrollo activo',
+    status_man: 'En Mantenimiento',
+    status_arc: 'No activo',
+}
+
+// gallery component translations
+const gallery_en = {
+    show: 'Show gallery',
+    hide: 'Hide gallery'
+}
+
+// gallery component translations
+const gallery_es = {
+    show: 'Mostrar galería',
+    hide: 'Ocultar galería'
+}
 
 export const Strings_en = {
     nav: nav_en,
     footer: footer_en,
     page_portfolio: portfolio_en,
+    project_card: project_card_en,
+    gallery: gallery_en,
 }
 
 export const Strings_es = {
     nav: nav_es,
     footer: footer_es,
     page_portfolio: portfolio_es,
+    project_card: project_card_es,
+    gallery: gallery_es,
 }
