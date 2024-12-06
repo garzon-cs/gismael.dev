@@ -1,3 +1,6 @@
+import { batch_freelance_en, batch_relevant_en } from "./projects_data_en";
+import { batch_freelance_es, batch_relevant_es } from "./projects_data_es";
+
 // language selector component needs to know available langs
 // we could invent those, but we better centralize all itl related settings and constants here
 export const languageOptionsList = ['en', 'es'];
@@ -27,34 +30,16 @@ const footer_es = {
 
 // translations for the portfolio page
 const portfolio_en = {
-    role: 'Backend Engineer'
+    role: 'Backend Engineer',
+    wait: 'This is work in progress. More things to come soon.'
 }
 
 const portfolio_es = {
-    role: 'Ingeniero Backend'
+    role: 'Ingeniero Backend',
+    wait: 'Este es trabajo en progreso. Más cosas por venir pronto.'
 }
 
-// card component translations
-
-const project_card_en = {
-    site: 'Site', 
-    techstack: 'Tech Stack', 
-    status: 'Status',
-
-    status_dev: 'In active development',
-    status_man: 'In Mantainance',
-    status_arc: 'Not active',
-}
-
-const project_card_es = {
-    site: 'Sitio', 
-    techstack: 'Tecnologías', 
-    status: 'Estado',
-
-    status_dev: 'En desarrollo activo',
-    status_man: 'En Mantenimiento',
-    status_arc: 'No activo',
-}
+import { project_card_en, project_card_es } from "./itl_card_en_es";
 
 // gallery component translations
 const gallery_en = {
@@ -68,12 +53,16 @@ const gallery_es = {
     hide: 'Ocultar galería'
 }
 
+// these (at the moment 2 objects should be the central source of international strings)
 export const Strings_en = {
     nav: nav_en,
     footer: footer_en,
     page_portfolio: portfolio_en,
     project_card: project_card_en,
     gallery: gallery_en,
+
+    batch_relevant: batch_relevant_en,
+    batch_freelance: batch_freelance_en,
 }
 
 export const Strings_es = {
@@ -82,4 +71,7 @@ export const Strings_es = {
     page_portfolio: portfolio_es,
     project_card: project_card_es,
     gallery: gallery_es,
+
+    batch_relevant: batch_relevant_es,
+    batch_freelance: batch_freelance_es,
 }

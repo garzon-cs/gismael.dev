@@ -6,7 +6,6 @@ import { LanguageSelector } from './components/LanguageSelector'
 import { Portfolio } from './pages/Portfolio'
 import { NavLink } from 'react-router-dom'
 import { Footer } from './components/Footer'
-// import viteLogo from '/vite.svg'
 
 
 function App() {

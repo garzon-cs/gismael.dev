@@ -44,7 +44,7 @@ if(images?.length > 0)
         {images.map((src, index) => (
             <li
             key={index}
-            className="flex flex-row flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 xl:w-1/4"
+            className="flex flex-row flex-shrink-0 w-full sm:w-1/2 lg:w-full"
             >
             <img
                 src={src}

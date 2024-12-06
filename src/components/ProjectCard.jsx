@@ -22,7 +22,7 @@ export const ProjectCard = ({
   title,
   url,
   anchorText,
-  techstack,
+  techStack,
   description,
   images = [],
   status,
@@ -51,7 +51,7 @@ export const ProjectCard = ({
           </a>
         </li>
         <li className={liStyle}>
-          <span className={spanStyle}>{project_card.techstack}:</span> {techstack}
+          <span className={spanStyle}>{project_card.techStack}:</span> {techStack}
         </li>
         <li className={liStyle}>
           <span className={spanStyle}>{project_card.status}:</span>{' '}
