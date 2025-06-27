@@ -39,7 +39,7 @@ export const Index = () => {
         </a>
         <a
           className={anchorStyle}
-          href="https://github.com/gismael-gzn"
+          href="https://github.com/garzon-cs"
           target="_blank"
           rel="noopener noreferrer"
         >
